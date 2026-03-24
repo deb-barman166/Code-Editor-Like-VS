@@ -1,0 +1,5 @@
+{
+  "name": "Code Editor PWA",
+  "description": "An advanced Progressive Web App (PWA) code editor inspired by Visual Studio Code, running entirely in the browser with offline support.",
+  "requestFramePermissions": []
+}
