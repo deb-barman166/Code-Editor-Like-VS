@@ -4,13 +4,10 @@ import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 import {VitePWA} from 'vite-plugin-pwa';
 
-export default defineConfig({
-  base: "/Code-Editor-Like-VS/",
-})
-
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
+    base: "/Code-Editor-Like-VS/",
     plugins: [
       react(),
       tailwindcss(),
