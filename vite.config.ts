@@ -6,7 +6,7 @@ import {VitePWA} from 'vite-plugin-pwa';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: "/Code-Editor-Like-VS/",
+    base: "./",
     plugins: [
       react(),
       VitePWA({
